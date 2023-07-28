@@ -3,4 +3,10 @@
   "extends": [
     "config:recommended", ":dependencyDashboard"
   ]
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["maven-shade-plugin"],
+      "dependencyDashboardApproval": true
+    }
+  ]
 }
